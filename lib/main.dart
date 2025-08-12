@@ -36,6 +36,14 @@ class MainApp extends StatelessWidget {
                 ),
                 child: Text('Buttlonn'),
               ),
+              SizedBox(height: 16),
+              ElevatedButton(
+                onPressed: null, // Add your onPressed logic here
+                style: ButtonStyle(
+                  backgroundColor: MaterialStatePropertyAll<Color>(Colors.red),
+                ),
+                child: Text('New Button'),
+              ),
             ],
           ),
         ),
