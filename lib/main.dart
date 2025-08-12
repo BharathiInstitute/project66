@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 //hello
+//hii
 void main() {
   runApp(const MainApp());
 }
@@ -21,6 +22,9 @@ class MainApp extends StatelessWidget {
               SizedBox(height: 16),
               ElevatedButton(
                 onPressed: null, // You can add your onPressed logic here
+                style: ButtonStyle(
+                  backgroundColor: MaterialStatePropertyAll<Color>(Colors.blue), // Change color here
+                ),
                 child: Text('Click Me'),
               ),
             ],
